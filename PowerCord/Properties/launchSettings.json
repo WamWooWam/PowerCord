@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PowerCord": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "PCORD_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

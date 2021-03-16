@@ -1,0 +1,12 @@
+{
+  "Discord": {
+    "Token": "<your discord token>",
+    "Prefix": "p$"
+  },
+  "PowerCord": {
+    "Timeout": 10,
+    "NoResponseEmoji": ":ms_ok:",
+    "TimeoutEmoji": ":ms_alarm:",
+    "GlobalDirectoryName":  "Global"
+  }
+}
