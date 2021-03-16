@@ -1,4 +1,4 @@
-# PowerCord
+# ![PowerCord Logo](https://github.com/WamWooWam/PowerCord/raw/main/Assets/powercord-circle.png) PowerCord
  PowerCord is a Discord bot with a PowerShell frontend. Not affiliated with the Discord client of the same name, it's just a much better pun.
 
 ## Features
