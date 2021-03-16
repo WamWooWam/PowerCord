@@ -35,6 +35,9 @@
   </ItemGroup>
   
   <ItemGroup>
+    <None Update="sample.appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Global\Modules\Dictionary\dictionary.psd1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -56,10 +59,13 @@
     <None Update="appsettings.Production.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Modules\PSDiagnostics\PSDiagnostics.psd1">
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\PowerShell\src\Modules\Windows\PSDiagnostics\PSDiagnostics.psd1" Link="Modules\PSDiagnostics\PSDiagnostics.psd1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Modules\PSDiagnostics\PSDiagnostics.psm1">
+    <None Include="..\PowerShell\src\Modules\Windows\PSDiagnostics\PSDiagnostics.psm1" Link="Modules\PSDiagnostics\PSDiagnostics.psm1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
